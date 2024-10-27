@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Profil</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<input type="checkbox" id="toggleProfile" hidden>
+    
+
+    <div class="container" id="home">
+        <div class="overlay">
+            <h1>Welcome</h1>
+            <label for="toggleProfile" class="learn-button">Learn About Me</label>
+        </div>
+    </div>
+
+    <div class="container hidden" id="profile">
+        <div class="profile-box">
+            <div class="profile-content">
+                <a href="#imageModal" class="profile-img-link">
+                    <img src="images/profile-picture.png" alt="Ma Photo" class="profile-img">
+                </a>
+                <div class="social-links">
+                    <h2>Connect with me</h2>
+                    <a href="https://www.facebook.com/dennis.rothbart/?locale=fr_FR" class="button" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/dennis.rtb/" class="button" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com/in/dennis-rothbart/" class="button" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+            <h1>Dennis Rothbart</h1>
+            <p>I am a first-year student at IESEG with a passion for cars, fitness, investments, and video games. I love meeting new people and spending time with friends.</p>
+            <h2>Achievements</h2>
+            <p>Member of IESEG Business School.</p>
+            <h2>Interests</h2>
+            <ul>
+                <li>I am passionate about sports like bodybuilding and soccer🏋️⚽.</li>
+                <li>I really like the car industry🏎️.</li>
+                <li>I play video games with my friends🎮</li>
+            </ul>
+            <label for="toggleProfile" class="learn-button back-button">Back</label>
+        </div>
+    </div>
+
+    <div class="modal" id="imageModal">
+        <a href="#" class="close-button">&times;</a>
+        <img src="images/profile-picture.png" alt="Ma Photo Grand" class="modal-content">
+    </div>
+</body>
+</html>
